@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadania</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1>Zadania MBOT-a</h1>
+
+    <div class="list">
+      <div class="list-item">
+        <div class="list-item-header">
+          POCZATEK (WPROWADZENIE DO PROGRAMU):
+        </div>
+        <div class="list-item-body">
+          <div class="list-item-body-content">
+            Jeśli podłączysz robota przez bluetooth (lub w trybie bezpośrednim z komputera), programy zaczną się od:
+            <p><center><img src="img/flag.png" class="img"></center></p>
+            <p>Jeśli podłączysz robota przez port USB (lub w trybie przesyłania z komputera), programy zaczną się od:</p>
+            <p><center><img src="img/usb.png" class="img" /></center></p>
+          </div>
+        </div>
+      </div>
+      <div class="list-item">
+        <div class="list-item-header">
+            PROGRAM 1: CZUJNIK ODLEGŁOŚCI   
+        </div>
+        <div class="list-item-body">
+          <div class="list-item-body-content">
+            Ultradźwiękowy czujnik odległości stanowi standardowe wyposażenie robota mBot. 
+            Wykorzystywany jest do wykrywania obiektów i pomiaru odległości do nich. 
+            Zasięg działania czujnika do 400cm.Oto przykładowy program który pozowli wysiwtlić zasięg czujnika na tablicy led:
+            <p><center><img src="img/met.png" style="height: 200px;" class="img"><img src="img/czujnik.jpg" style="height: 300px;" class="img"></center></p>
+          </div>
+        </div>
+      </div>
+      <div class="list-item">
+        <div class="list-item-header">
+            PROGRAM 2: MUZYK ROBOT
+        </div>
+        <div class="list-item-body">
+          <div class="list-item-body-content">
+            Oto bloki które umozliwiają zagranie krótkich dźwięków co 0.25 taktów, których zalecamy używać:
+            <p><center><img src="img/music.png" class="img"></center></p>
+            Lub program pianina w apliakcji mobilnej:
+            <p><center><img src="img/piano.png" class="img" width="400px"></center></p>
+
+          </div>
+        </div>
+      </div>
+      <div class="list-item">
+        <div class="list-item-header">
+            PROGRAMY 3: WYŚWIETLANIE NA MATRYCE LED
+        </div>
+        <div class="list-item-body">
+          <div class="list-item-body-content">
+            Program musi umożliwiać robotowi wyświetlanie losowych kolorów na matrycy ledowej zawsze co sekunde  inny kolor.
+            Będziesz musiał podłączyć matrycę LED do portu 4 robota.
+            <br>Rozwiązanie
+            oto bloki, których zalecamy używać:
+            
+           <center> <img src="img/led.png" style="height: 400px;" class="img"> </center>
+          </div>
+        </div>
+      </div>
+      <div class="list-item">
+        <div class="list-item-header">
+            PROGRAM 4: UNIKANIE PRZESZKÓD
+        </div>
+        <div class="list-item-body">
+          <div class="list-item-body-content">
+            Umieść robota na czarnej linii (pasku) dostarczonej maty do gry.
+           <br>Program musi umożliwiać robotowi poruszanie się po tej linii w nieskończoność przez cały kurs. <p>Wykorzystasz czujniki śledzenia linii (port2).
+            jeśli czujnik wykryje „biały” po lewej: skręca w prawo (50% mocy)
+           <br> jeśli czujnik wykryje „biały” po prawej: skręca w lewo (50% mocy)
+            jeśli czujniki wykryją „czerń”: <br>posuwa się naprzód (50% mocy) lub sam steruj robota za pomocą zaprogramowanych bloczków:</p>
+            <p><center><img src="img/map.jpg" class="img" style = "height: 400px;" /><img src="img/control.png" class="img" /></center></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
+</body>
+</html>
