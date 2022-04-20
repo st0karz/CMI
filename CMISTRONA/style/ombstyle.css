@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 body,html{
 	margin: 0 ;
 	width: 100%;
@@ -46,6 +46,7 @@ body,html{
 	user-select: none;
 	box-shadow: 0px 0px 25px 0px rgba(0,0,0,.75);
 	transition: .1s;
+	font-family: 'Poppins';
 	
 }
 
@@ -193,7 +194,7 @@ body,html{
 	 display: flex;
  }
  .cen{
-	font-size: 40px;
+	font-size: 30px;
 	text-align: right;
 	margin-left:67%;
  }
